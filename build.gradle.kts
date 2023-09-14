@@ -37,7 +37,6 @@ micronaut {
         incremental(true)
         annotations("example.micronaut.*")
     }
-    testResources { sharedServer = false }
 //    aot {
 //    // Please review carefully the optimizations enabled below
 //    // Check https://micronaut-projects.github.io/micronaut-aot/latest/guide/ for more details
